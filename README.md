@@ -17,3 +17,6 @@ same steps from 1 - 4 but with mapping
 6. [acc] matching the speed of the car in the front with PID instead
 
 Implement the architecture in the paper [ UML stuff ]
+
+## First step 
+How to work with the data when ego vehical is moving. How to Track the second vehicle. how to map the trigectory of both vehicals. 
