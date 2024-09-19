@@ -1,0 +1,2 @@
+[allData, ~, ~] = simulationEnvironment();
+end
