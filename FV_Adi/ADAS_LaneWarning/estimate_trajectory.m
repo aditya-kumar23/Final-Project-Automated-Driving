@@ -28,7 +28,7 @@ functions = utility_functions;
     % Kalman filter loop
     for i = 1:size(og_measures, 1)
         if i == 1
-            dt = 0.0400;  % Use a default value for the first iteration (you can also choose a small value)
+            dt = 0.0400;  % Use a default value for the first iteration
         else
             dt = max(timeArray(i) - timeArray(i-1), 0.001);  % Ensure dt is never zero
         end
